@@ -234,6 +234,16 @@ main {
     font-style: italic;
 }
 
+.paper .authors a {
+    color: var(--color-accent);
+    text-decoration: none;
+    font-style: italic;
+}
+
+.paper .authors a:hover {
+    text-decoration: underline;
+}
+
 .paper .status {
     font-size: 0.9rem;
     color: var(--color-text-light);
