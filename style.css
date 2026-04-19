@@ -274,6 +274,11 @@ main {
     font-style: normal;
 }
 
+.badge.published {
+    background: #e6f4ea;
+    color: #1e7e34;
+}
+
 .badge.accepted {
     background: #e6f4ea;
     color: #1e7e34;
