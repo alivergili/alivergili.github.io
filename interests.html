@@ -9,6 +9,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .bird-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+            gap: 10px;
+            margin-top: 1.25rem;
+        }
+        .bird-grid img {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+            display: block;
+            transition: transform 0.2s ease;
+        }
+        .bird-grid img:hover {
+            transform: scale(1.04);
+        }
+    </style>
 </head>
 <body>
     <nav>
@@ -58,6 +77,15 @@
 
             <h2><i class="fas fa-dove"></i> Birds</h2>
             <p style="font-size: 1.05rem; line-height: 1.75;">I also love birds.</p>
+            <div class="bird-grid">
+                <img src="assets/birds/bird-01.jpg" alt="Australian brushturkey" loading="lazy">
+                <img src="assets/birds/bird-02.jpg" alt="Australian pelicans" loading="lazy">
+                <img src="assets/birds/bird-03.jpg" alt="Australasian darter drying its wings" loading="lazy">
+                <img src="assets/birds/bird-04.jpg" alt="Galah" loading="lazy">
+                <img src="assets/birds/bird-05.jpg" alt="Common myna" loading="lazy">
+                <img src="assets/birds/bird-06.jpg" alt="Australian white ibis" loading="lazy">
+                <img src="assets/birds/bird-07.jpg" alt="Laughing kookaburra" loading="lazy">
+            </div>
         </section>
     </main>
 
